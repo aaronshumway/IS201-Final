@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #555555;
+    background-color: rgb(198, 255, 177);
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+a {color: maroon;
+text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    /* font-weight: bold;
+    font-size: 18px; */
+}
+a:visited {
+    color: blue;
+}
+.resumeListHeading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+.bold {font-weight: bold;}
+.justify {text-align: justify;}
+.homebg {
+    background-image: url('../images/bestbackground.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.box1 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+
+    /* you can do it all on one line like so:
+    border: 1px solid red; */
+}
+
+.box2 {
+    padding: 5px;
+
+}
+
+.box3 {
+    margin: 50px;
+    
+}
